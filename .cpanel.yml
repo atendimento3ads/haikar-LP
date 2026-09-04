@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/hg3ads37/experiencia.haikar.com.br/
+    - /bin/mkdir -p "$DEPLOYPATH"
+    - /bin/cp -f index.html "$DEPLOYPATH"
